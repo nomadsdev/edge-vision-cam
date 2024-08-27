@@ -52,7 +52,14 @@ EdgeVisionCam is a real-time edge detection camera application built with Python
 ## Customization
 
 You can adjust the parameters for edge detection directly in the `main.py` file:
-
-```python
-ed = detect_edges(img, sigma=1.5, low_threshold=50, high_threshold=150)
-```
+```python 
+    ed = detect_edges(img, sigma=1.5, low_threshold=50, high_threshold=150)
+``` 
+* sigma: Controls the Gaussian blur. Higher values lead to more blur. 
+* low_threshold and high_threshold: Determine the thresholds for edge detection. Adjust these to control which edges are detected. 
+ 
+## License 
+This project is licensed under the MIT License
+ 
+## Contributions 
+Contributions are welcome! If you have any improvements or suggestions, feel free to create a pull request or open an issue. 
